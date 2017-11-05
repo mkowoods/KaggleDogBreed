@@ -3,3 +3,5 @@ data
 .floydignore
 .floydexpt
 .idea
+
+__pycache__

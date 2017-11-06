@@ -1,9 +1,8 @@
-Notes on floydhub
+Notes on server set-up
 
-floyd project name: dl-demo
+environment name on GPU server dogbreed-demo
 
-floyd dataset name: "dog-breed"
+server is only configured to work with tensorflow_gpu==1.0.0
 
-floyd data init dog-breed #run inside of data / training
-floyd data upload
 
+https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3

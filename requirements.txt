@@ -8,4 +8,5 @@ jupyter
 requests
 matplotlib
 opencv-python
-floyd-cli
+# floyd-cli
+# tensorflow-gpu==1.0.0

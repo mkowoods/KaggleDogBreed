@@ -1,12 +1,12 @@
 from tqdm import tqdm
 import os
-import requests
+#import requests
 import config
 
 #download
 
 DATA_DIR = "data"
-DATA_DIR_PATH = os.path.join(config.BASE_DIR, DATA_DIR)
+DATA_DIR_PATH = os.path.join(os.path.dirname(__file__),config.BASE_DIR, DATA_DIR)
 BASE_URL = r"https://www.kaggle.com/c/dog-breed-identification/download/"
 FILE = ['labels.csv.zip', 'sample_submission.csv.zip', 'test.zip', 'train.zip']
 

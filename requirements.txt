@@ -3,10 +3,11 @@ h5py
 numpy
 pandas
 tensorflow==1.3
-keras
 jupyter
 requests
 matplotlib
 opencv-python
+scikit-learn
+# keras
 # floyd-cli
 # tensorflow-gpu==1.0.0

@@ -1,4 +1,6 @@
 data
+train
+food_c101_n1000_r384x384x3.h5
 .ipynb_checkpoints
 .floydignore
 .floydexpt
